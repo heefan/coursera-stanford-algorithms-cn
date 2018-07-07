@@ -1,3 +1,6 @@
+## Quick Sort - Analysis I: A Decomposition Principle
+
+
 >So this is the first video of three in which we'll mathematically analyze the running time of the randomized implementation of quick sort. So in particular we're going to prove that the average running time of quick sort is big O of n log n. Now this is the first randomized algorithm that we've seen in the course and therefore in its analysis will be the first time that we're going to need any kind of probability theory. 
 
 1. 通过三个视频用数学方法分析quicksort的随机实现的运行时间。
@@ -65,7 +68,8 @@ _Introduction to Algorithms, 3rd Appendix C, Couning and Probability_  (heefan�
 1. 随机变量：给定的pivot序列是实数函数，定义在样本空间。
 2. 定义quicksort比较的次数
 3. “比较”：在输入的array中项的两两比较。
-4. "random varialbes"： pivot sequence的$\Sigma$, 也就是所有pivots的选择。
+4. "random varialbes"： pivot sequence的 $\sigma$, 也就是所有pivots的选择。
+5. $(\sigma)$ = quicksort的两个输入的元素 
 
 
 
